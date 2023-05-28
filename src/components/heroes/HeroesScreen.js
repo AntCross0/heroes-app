@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { redirect, useNavigate, useParams } from 'react-router-dom';
 import getHeroById from '../../selectors/getHeroById';
 import HeroeImage from './HeroeImage';
 
 const HeroesScreen = () => {
 
-    const { heroId } = useParams();
-    const hero = getHeroById(heroId);
-
-    const { id, superhero, publisher, alter_ego, first_appearance, characters } = hero[0];
     const navigate = useNavigate();
+    const { heroId } = useParams();
+    const hero = useMemo(() => (getHeroById(heroId)), [heroId]);
+
+    if (!hero) {
+        return redirect('/');
+    }
+    const { id, superhero, publisher, alter_ego, first_appearance, characters } = hero[0];
+
+
     const HandleClick = () => {
         //go back
         navigate(-1);
