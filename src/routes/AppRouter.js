@@ -3,8 +3,8 @@ import React from 'react';
 import { LoginScreen } from '../components/login/LoginScreen';
 import DashboardRoutes from './DashboardRoutes';
 
-
 const AppRouter = () => {
+
     return (
         <Router>
             <Routes>
