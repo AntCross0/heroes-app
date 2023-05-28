@@ -9,7 +9,7 @@ const DashboardRoutes = () => {
     return (
         <>
             <NavBar />
-            <div>
+            <div className='p-4'>
                 <Routes>
                     <Route path='/dc' Component={DcScreen} />
                     <Route path='/marvel' Component={MarvelScreen} />
