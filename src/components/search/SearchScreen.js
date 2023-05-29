@@ -28,7 +28,7 @@ const SearchScreen = () => {
         <>
             <div className='relative bg-slate-50 mx-auto flex flex-row gap-2 h-[90vh] rounded text-slate-800 overflow-auto'>
 
-                <form onSubmit={e => handleSearch(e)} className='relative p-4 flex flex-col gap-y-4 rounded bg-slate-100'>
+                <form onSubmit={e => handleSearch(e)} className=' h-full relative p-4 flex flex-col gap-y-4 rounded bg-slate-100'>
                     <label className='font-medium' >find the heroes you're looking for</label>
                     <input
                         onChange={handleInputChange}
@@ -40,8 +40,8 @@ const SearchScreen = () => {
 
                     <button type='submit' className='transition-color p-2 w-52 bg-indigo-800 rounded text-center text-white font-semibold hover:bg-indigo-900' >Search</button>
                 </form>
-                <div className='h-[82rem] w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[repeat(3,26rem)] 
-                    gap-x-4 gap-y-2 mx-auto py-4'>
+                <div className='transition-transform ease-in-out h-[82rem] min-max:w-4/5 grid grid-flow-row auto-rows-[200px] grid-cols-1 md:min-[1160px]:grid-cols-2  lg:min-[1570px]:grid-cols-3  
+                    gap-2 justify-items-center items-center mx-auto py-4 overflow-hidden'>
                     {
                         //validation
                         (q === '')
@@ -53,7 +53,7 @@ const SearchScreen = () => {
 
                     }
                     {herofiltered.map((hero) => (
-                        <HeroeCard key={hero.id} {...hero} />
+                        <HeroeCard className='transition-all translate-x-10' key={hero.id} {...hero} />
                     ))}
                 </div>
             </div>
