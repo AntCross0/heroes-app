@@ -24,7 +24,7 @@ const HeroesScreen = () => {
 
     let img = HeroeImage({ id });
     return (
-        <div className='relative w-full h-[90vh] flex items-center'>
+        <div className='transition-all delay-300 relative w-full h-[90vh] flex items-center'>
             <div className='group relative transition-all bg-slate-50 rounded text-slate-800 px-4 py-2 
             w-2/4 h-2/5 mx-auto '>
                 <div className='flex flex-row justify-between'>
@@ -38,7 +38,7 @@ const HeroesScreen = () => {
                         </div>
                         <button onClick={HandleClick} className='transition-color absolute bottom-4 p-2 bg-sky-400 w-32 rounded text-white  hover:bg-sky-500 font-semibold'>Go Back</button>
                     </div>
-                    <img className=' relative -top-14 right-4 transition-transform hover:scale-110 w-[280px] h-auto rounded-md shadow-md' alt={superhero} src={img} />
+                    <img className=' relative -top-14 right-4 translate-x-4 transition-transform hover:scale-110 w-[280px] h-auto rounded-md shadow-md' alt={superhero} src={img} />
                 </div>
             </div >
         </div>
