@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { redirect, useNavigate, useParams } from 'react-router-dom';
+import { Navigate, redirect, useNavigate, useParams } from 'react-router-dom';
 import getHeroById from '../../selectors/getHeroById';
 import HeroeImage from './HeroeImage';
 
@@ -10,14 +10,14 @@ const HeroesScreen = () => {
     const hero = useMemo(() => (getHeroById(heroId)), [heroId]);
 
     if (!hero) {
-        return redirect('/');
+        return <Navigate to='/' replace />
     }
     const { id, superhero, publisher, alter_ego, first_appearance, characters } = hero[0];
 
 
     const HandleClick = () => {
         //go back
-        navigate(-1);
+        return <Navigate to={-1} replace />
     }
 
 
