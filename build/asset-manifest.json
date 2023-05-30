@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb06c563.css",
+    "main.js": "/static/js/main.ab839c49.js",
+    "static/media/dc-wonder.webp": "/static/media/dc-wonder.0e45f683ed69cd2bed3d.webp",
+    "static/media/marvel-hulk.webp": "/static/media/marvel-hulk.945b7ba6804af1ce659e.webp",
+    "static/media/dc-flash.webp": "/static/media/dc-flash.a26936881bf2e98f3bb1.webp",
+    "static/media/dc-black.webp": "/static/media/dc-black.fe78e331ed214de71602.webp",
+    "static/media/marvel-silver.webp": "/static/media/marvel-silver.1416ad2724e4527dbfe7.webp",
+    "static/media/dc-martian.webp": "/static/media/dc-martian.a66d3fecfcdebc733d35.webp",
+    "static/media/marvel-daredevil.webp": "/static/media/marvel-daredevil.35ee16f80b78e2b3849a.webp",
+    "static/media/dc-green.webp": "/static/media/dc-green.49aa3f7e6b7c43e47175.webp",
+    "static/media/dc-superman.webp": "/static/media/dc-superman.1c4deee3bc27bc2ddd6d.webp",
+    "static/media/dc-blue.webp": "/static/media/dc-blue.33540ed4ef1d532dc212.webp",
+    "static/media/marvel-spider.webp": "/static/media/marvel-spider.cef32db62bae676f848d.webp",
+    "static/media/dc-batman.webp": "/static/media/dc-batman.43bed7ba5d131a751932.webp",
+    "static/media/marvel-captain.webp": "/static/media/marvel-captain.7ac0fee9d21ba6cdd254.webp",
+    "static/media/dc-arrow.webp": "/static/media/dc-arrow.74f2e14531eb90d6cdea.webp",
+    "static/media/marvel-wolverine.webp": "/static/media/marvel-wolverine.961b6ecf35bd999c2ca5.webp",
+    "static/media/marvel-thor.webp": "/static/media/marvel-thor.b6a7e58fffe051aa3061.webp",
+    "static/media/marvel-iron.webp": "/static/media/marvel-iron.75e5727a3666f1ce75ee.webp",
+    "static/media/marvel-hawkeye.webp": "/static/media/marvel-hawkeye.592b5e280aae9071c0c5.webp",
+    "static/media/dc-robin.webp": "/static/media/dc-robin.ff9786cd83aa57831a5c.webp",
+    "static/media/marvel-cyclops.webp": "/static/media/marvel-cyclops.677d17f66741b7881428.webp",
+    "index.html": "/index.html",
+    "main.bb06c563.css.map": "/static/css/main.bb06c563.css.map",
+    "main.ab839c49.js.map": "/static/js/main.ab839c49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb06c563.css",
+    "static/js/main.ab839c49.js"
+  ]
+}
