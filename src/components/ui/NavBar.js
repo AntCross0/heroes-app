@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { NavLink, Link, useNavigate } from 'react-router-dom';
+import { NavLink, Link, Navigate } from 'react-router-dom';
 import { AuthContext } from '../../auth/AuthContext';
 import { types } from '../../types/types';
 
@@ -7,14 +7,13 @@ const NavBar = () => {
 
     const context = useContext(AuthContext);
     const { user, dispatch } = context;
-    const navigate = useNavigate();
 
     const handleLogout = (e) => {
 
         e.preventDefault();
         dispatch({ type: types.logout });
 
-        navigate('/login');
+        <Navigate to='/login' />
     }
 
 
