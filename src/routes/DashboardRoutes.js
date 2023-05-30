@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, redirect } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import DcScreen from '../components/dc/DcScreen';
 import HeroesScreen from '../components/heroes/HeroesScreen';
 import MarvelScreen from '../components/marvel/MarvelScreen';

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dab3bc65.css",
-    "main.js": "/static/js/main.ac7edfcd.js",
+    "main.css": "/static/css/main.bb06c563.css",
+    "main.js": "/static/js/main.ab839c49.js",
     "static/media/dc-wonder.webp": "/static/media/dc-wonder.0e45f683ed69cd2bed3d.webp",
     "static/media/marvel-hulk.webp": "/static/media/marvel-hulk.945b7ba6804af1ce659e.webp",
     "static/media/dc-flash.webp": "/static/media/dc-flash.a26936881bf2e98f3bb1.webp",
@@ -23,11 +23,11 @@
     "static/media/dc-robin.webp": "/static/media/dc-robin.ff9786cd83aa57831a5c.webp",
     "static/media/marvel-cyclops.webp": "/static/media/marvel-cyclops.677d17f66741b7881428.webp",
     "index.html": "/index.html",
-    "main.dab3bc65.css.map": "/static/css/main.dab3bc65.css.map",
-    "main.ac7edfcd.js.map": "/static/js/main.ac7edfcd.js.map"
+    "main.bb06c563.css.map": "/static/css/main.bb06c563.css.map",
+    "main.ab839c49.js.map": "/static/js/main.ab839c49.js.map"
   },
   "entrypoints": [
-    "static/css/main.dab3bc65.css",
-    "static/js/main.ac7edfcd.js"
+    "static/css/main.bb06c563.css",
+    "static/js/main.ab839c49.js"
   ]
 }

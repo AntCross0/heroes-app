@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useContext } from 'react';
 import { LoginScreen } from '../components/login/LoginScreen';
-import DashboardRoutes from './DashboardRoutes';
 import { PrivateRoute } from './PrivateRoute';
 import { AuthContext } from '../auth/AuthContext';
 
